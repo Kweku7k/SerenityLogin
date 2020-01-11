@@ -73,6 +73,19 @@ font-size: 80px;
     border: 1px solid #c4c4c4;
     background: none;
     border-radius: 20px;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.card-pro{
+    width: 100%;
+    /* height: 600px; */
+    border: 1px solid #09a6ac;
+    background: none;
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px;
 
 }
 /* 212529 */
@@ -81,10 +94,7 @@ font-size: 80px;
     margin-bottom: 50px;
 }
 
-.card{
-    text-align: center;
-    padding: 30px;
-}
+
 
 .card-type{
     font-size: 30px;
@@ -108,6 +118,31 @@ font-size: 80px;
     /* margin-top: 8px ; */
 }
 
+.card-button-pro{
+    border: 1px solid #09a6ac;
+    width: 50%;
+    text-align: center;
+    margin:8px auto;
+    border-radius: 10px;
+    padding: 10px;
+    background: #09a6ac;
+    font-weight: bold;
+    /* margin-top: 8px ; */
+}
+
+.card-button-team{
+    border: 1px solid #09a6ac;
+    width: 50%;
+    text-align: center;
+    margin:8px auto;
+    border-radius: 10px;
+    padding: 10px;
+    /* background: #09a6ac; */
+    /* font-weight: bold; */
+    color: #09a6ac;
+    /* margin-top: 8px ; */
+}
+
 hr{
     width: 100%;
     background-color: white;
@@ -119,3 +154,85 @@ hr{
     text-align: left;
 }
 
+.section3-poppins-head{
+    font-weight: bolder;
+    font-size: 80px;
+    color: #09a6ac;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+
+}
+
+.testimonial-card{
+    width: 100%;
+    /* height: 500px; */
+    background: white;
+    box-shadow: 6px 3px 10px 8px rgba(181,179,181,1);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.section3-poppins-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    /* margin: 30px auto; */
+    
+}
+
+.section3-poppins-support{
+    font-family: 'Poppins', sans-serif;
+    color: #c4c4c4;
+}
+
+.section3-poppins-body{
+    /* font-weight: light; */
+    font-size: 20px;
+    margin: 30px auto;
+    color: #3d3b3b;
+    font-family: 'Roboto', sans-serif;
+}
+
+#right{
+    margin-top:100px ;
+}
+
+
+.section4{
+    margin-top:30px ;
+    margin-bottom:30px ;
+
+}
+.section4-title{
+    text-align: center;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.section4-companies{
+    width: 70%;
+    height: 100px;
+    background: white;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 6px 3px 10px 8px rgba(181,179,181,1);
+}
+
+.footer{
+    background-color: black;
+    color:white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-poppins-title{
+    font-family: 'Poppins', sans-serif;
+}
+.footer-poppins-body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    color: #c4c4c4;
+    font-size: 20px;
+}
