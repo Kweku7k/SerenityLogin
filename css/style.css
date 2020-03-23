@@ -118,7 +118,11 @@ form{
 color: white;
 font-family: 'Roboto', sans-serif;
 /* font-size: 30px; */
-font-weight: bold;
+/* font-weight: light; */
+}
+
+.nav-link{
+  font-weight: lighter;
 }
 
 .active{
@@ -243,4 +247,27 @@ hr{
 ::placeholder{
   color: pink;
   opacity: 1;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  body{
+    padding: 0;
+    margin: 5px;
+  }
+
+  img{
+    width: 100%;
+  }
+  
+  .start{
+    width: auto;
+  }
+  .start2{
+    width: auto;
+  }
+  .middle2{
+    width: auto;
+  }
+
 }
